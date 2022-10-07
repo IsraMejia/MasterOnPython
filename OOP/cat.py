@@ -28,3 +28,12 @@ def older_cat(cats):
 
 older_cat(cats_list)
 
+
+#Solution using list methods
+def oldest(*args):
+    ages = []
+    for object in args:
+        ages.append(object.age)
+    return max(ages)
+
+print(f'\n\nThe oldest cat is {oldest(gato1,gato2, gato3)} years old.')
