@@ -31,9 +31,14 @@ class PlayerCharacter :
     def phrase(self, text):
         print(f'My name is {self.name}, and I want say: {text}')
 
+    @classmethod
+    #def adding_things(n1, n2):
+    def adding_things(cls, n1, n2):
+        return cls('Alien', n1 + n2) #We can use the decorador classmethod, and cls to instance a object from the class
+
 
 player1 = PlayerCharacter('Isra', 24)
-player2 = PlayerCharacter('Pam', 22)
+player2 = PlayerCharacter('Ari', 22)
 
 print(f'\nPlayer 1 created, name: {player1.name}')
 print(f'Memory location: {player1} \n')
@@ -43,4 +48,7 @@ print(f'\n\nPlayer 2 created, name: {player2.name}')
 print(f'Memory location: {player2}')
 player2.shout()
 
-player1.phrase('Estoy mamadisimo alv jaja')
+player1.phrase('Estoy mamadisimo alv jaja\n\n')
+
+#print(player1.adding_things(2, 3)) #error to have 3 by defect, cls, n2, n1 parameters
+print(PlayerCharacter.adding_things(2,3)) #instance a class
