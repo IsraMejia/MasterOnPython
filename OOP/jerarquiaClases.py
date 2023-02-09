@@ -31,5 +31,9 @@ def main():
 
     print(f"Comparando: \n\t {Pepe.nombre.__eq__(Juan.nombre)}")
 
+    print(Pepe.__sizeof__)
+    print(Juan.__sizeof__)
 
+    print(f"Comparando: \n\t {Pepe.getEdad().__le__(Juan.getEdad())}")
+    #Comparamos atributos privados
 main()
