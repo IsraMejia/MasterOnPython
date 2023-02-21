@@ -1,0 +1,22 @@
+
+
+Windows 10 - desarrollado por Microsoft: https://www.microsoft.com/en-us/windows
+
+macOS Big Sur - desarrollado por Apple: https://www.apple.com/macos/big-sur/
+
+Ubuntu - una distribución de Linux desarrollada por Canonical: https://ubuntu.com/
+
+Android - un sistema operativo móvil desarrollado por Google: https://www.android.com/
+
+iOS - un sistema operativo móvil desarrollado por Apple: https://www.apple.com/ios/
+
+Chrome OS - un sistema operativo desarrollado por Google para dispositivos Chromebook: https://www.google.com/chromebook/chrome-os/
+
+Fedora - una distribución de Linux desarrollada por la comunidad: https://getfedora.org/
+
+CentOS - una distribución de Linux derivada de Red Hat Enterprise Linux: https://www.centos.org/
+
+FreeBSD - un sistema operativo de código abierto derivado de Unix: https://www.freebsd.org/
+
+OpenBSD - un sistema operativo de código abierto centrado en la seguridad: https://www.openbsd.org/
+
