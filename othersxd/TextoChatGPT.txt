@@ -1,22 +1,18 @@
 
 
-Windows 10 - desarrollado por Microsoft: https://www.microsoft.com/en-us/windows
+el subsistema de linux en windows tambien conocido como windows subsystem for linux wsl es una caracteristica de windows 10 que permite a los usuarios ejecutar aplicaciones de linux directamente en windows sin necesidad de una maquina virtual o un arranque dual
 
-macOS Big Sur - desarrollado por Apple: https://www.apple.com/macos/big-sur/
+wsl proporciona una capa de compatibilidad que permite que las aplicaciones de linux se ejecuten en windows sin cambios significativos en el codigo fuente esto se logra a traves de la inclusion de un nucleo de linux especifico en windows 10 que permite la ejecucion de binarios de linux
 
-Ubuntu - una distribución de Linux desarrollada por Canonical: https://ubuntu.com/
+hay dos versiones de wsl wsl1 y wsl2 wsl1 utiliza una arquitectura de traduccion dinamica que emula las llamadas del sistema linux mientras que wsl2 utiliza una maquina virtual liviana para proporcionar una experiencia mas cercana a la de un sistema linux completo
 
-Android - un sistema operativo móvil desarrollado por Google: https://www.android.com/
+wsl ofrece varias ventajas para los desarrolladores y usuarios de linux que utilizan windows permite ejecutar aplicaciones de linux y herramientas de linea de comandos nativas de linux en windows lo que ahorra tiempo y evita la necesidad de utilizar una maquina virtual o un arranque dual tambien permite la integracion de herramientas de desarrollo de linux con herramientas de windows lo que facilita el trabajo en proyectos de codigo abierto y la colaboracion entre desarrolladores
 
-iOS - un sistema operativo móvil desarrollado por Apple: https://www.apple.com/ios/
+en resumen el subsistema de linux en windows es una caracteristica util para los usuarios de windows que necesitan utilizar herramientas y aplicaciones de linux ya que les permite ejecutarlos directamente en su sistema operativo sin necesidad de instalar un sistema operativo linux completo en una maquina virtual o realizar un arranque dual
 
-Chrome OS - un sistema operativo desarrollado por Google para dispositivos Chromebook: https://www.google.com/chromebook/chrome-os/
+referencias
 
-Fedora - una distribución de Linux desarrollada por la comunidad: https://getfedora.org/
+what is wsl 2 de microsoft docs httpsdocsmicrosoftcomenuswindowswslabout
+introduction to the windows subsystem for linux de howto geek httpswwwhowtogeekcom249966howtoinstallandusethelinuxbashshellonwindows10
 
-CentOS - una distribución de Linux derivada de Red Hat Enterprise Linux: https://www.centos.org/
-
-FreeBSD - un sistema operativo de código abierto derivado de Unix: https://www.freebsd.org/
-
-OpenBSD - un sistema operativo de código abierto centrado en la seguridad: https://www.openbsd.org/
 
